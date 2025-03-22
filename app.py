@@ -6,7 +6,7 @@ import numpy as np
 st.title("🎬 Movie Score Predictor")
 
 # **Default File Path**
-DEFAULT_FILE_PATH = "/mnt/data/Movies Ranks.xlsm"
+DEFAULT_FILE_PATH = "Movies Ranks.xlsm"
 
 # **Function to Load Movie Data**
 def load_movie_data(file_path):
