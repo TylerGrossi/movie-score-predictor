@@ -63,7 +63,7 @@ import csv
 from collections import defaultdict, Counter
 
 # Load movie data
-file_path = "Movies_Ranks.xlsm"
+file_path = "Movies Ranks.xlsm"
 xls = pd.ExcelFile(file_path)
 df_movies = pd.read_excel(xls, sheet_name="Movie Rankings")
 
